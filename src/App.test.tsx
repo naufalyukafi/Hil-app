@@ -20,6 +20,6 @@ test('renders page beranda', () => {
       <Beranda />
     </BrowserRouter>
   );
-  const linkElement = getByText("HAFIDZ IT LUMAJANG");
+  const linkElement = getByText("HAFIDZ IT");
   expect(linkElement).toBeInTheDocument();
 });
