@@ -1,3 +1,11 @@
+.text-welcome {
+  text-align: right;
+}
+.fitur-hil {
+  background-color: '#FDC945'; 
+  display: 'block';
+  
+}
 /* tablet */
 @media screen and (max-width: 992px) {
     .navbar-select{
@@ -8,6 +16,18 @@
     }
     .site-content{
       align-items: center;
+    }
+    .image-about {
+      display: none;
+    }
+    .text-welcome {
+      text-align: left;
+      height: 60vh;
+      padding-top: 15%;
+      white-space:nowrap;
+      overflow:hidden;
+      -webkit-animation: typing 3s steps(70, end);
+      animation: animasi-ketik 3s steps(70, end);
     }
   }
   
@@ -20,4 +40,25 @@
   .navbar-search {
     display: none;
   }
+  .image-about {
+    display: none;
+  }
+  .text-welcome {
+    text-align: left;
+    height: 60vh;
+    padding-top: 10%;
+    white-space:nowrap;
+      overflow:hidden;
+      -webkit-animation: typing 3s steps(70, end);
+      animation: animasi-ketik 3s steps(70, end);
+  }
+
+  }
+
+  @keyframes animasi-ketik{
+    from { width: 0; }
+  }
+
+  @-webkit-keyframes animasi-ketik{
+    from { width: 0; }
   }
