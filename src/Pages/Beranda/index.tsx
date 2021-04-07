@@ -13,7 +13,7 @@ const Beranda = () => {
         <Layout>
             <Layout.Header>
                 <Row align="middle" justify="space-between" >
-                    <Link to="/project">
+                    <Link to="/">
                         <Col>
                             <Typography.Title level={4} style={{ fontWeight: 'bold', color: '#fff' }}>HAFIDZ IT LUMAJANG</Typography.Title>
                         </Col>
