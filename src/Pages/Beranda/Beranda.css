@@ -1,64 +1,21 @@
+.main {
+  width: 100%;
+  max-width: 1200px;
+  flex: 1;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 32px 10px;
+  margin: 0 auto;
+  min-height: 250vh;
+}
+
 .text-welcome {
   text-align: right;
 }
+
 .fitur-hil {
-  background-color: '#FDC945'; 
+  background-color: '#FDC945';
   display: 'block';
-  
 }
-/* tablet */
-@media screen and (max-width: 992px) {
-    .navbar-select{
-        display: none;
-    }
-    .navbar-search {
-      display: none;
-    }
-    .site-content{
-      align-items: center;
-    }
-    .image-about {
-      display: none;
-    }
-    .text-welcome {
-      text-align: left;
-      height: 60vh;
-      padding-top: 15%;
-      white-space:nowrap;
-      overflow:hidden;
-      -webkit-animation: typing 3s steps(70, end);
-      animation: animasi-ketik 3s steps(70, end);
-    }
-  }
-  
-  /* phone */
-  @media screen and (max-width: 600px) {
-  .navbar-select{
-    display: none;
-    background-color: orange;
-  }
-  .navbar-search {
-    display: none;
-  }
-  .image-about {
-    display: none;
-  }
-  .text-welcome {
-    text-align: left;
-    height: 60vh;
-    padding-top: 10%;
-    white-space:nowrap;
-      overflow:hidden;
-      -webkit-animation: typing 3s steps(70, end);
-      animation: animasi-ketik 3s steps(70, end);
-  }
-
-  }
-
-  @keyframes animasi-ketik{
-    from { width: 0; }
-  }
-
-  @-webkit-keyframes animasi-ketik{
-    from { width: 0; }
-  }

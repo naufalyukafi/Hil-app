@@ -1,0 +1,27 @@
+.dropdown {
+  margin-top: 13vh;
+  background-color: #5ba42f;
+}
+
+.dropdown li {
+  text-align: center;
+  padding: 15px;
+}
+
+.dropdown li:hover {
+  background-color: #65d321;
+}
+
+.dropdown li a {
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 508px) {
+  .dropdown {
+    display: none;
+  }
+}
