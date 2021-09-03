@@ -2,10 +2,10 @@ import React from 'react';
 import { INavbar } from '../../Helpers/types';
 import "./Navbar.css";
 
-const Navbar = ({toggle, isShowBorderNav}: INavbar) => {
+const Navbar = ({toggle}: INavbar) => {
 
     return (
-        <nav className={`nav ${isShowBorderNav && "nav__white"}`}>
+        <nav className="nav nav__white">
             <div>
                 <img className="nav__logo" src="./images/logo.png" alt="Hafidz IT Logo" />
             </div>

@@ -1,6 +1,5 @@
 export interface INavbar {
     toggle: () => void,
-    isShowBorderNav: boolean,
 }
 
 export interface IDropdown {
