@@ -1,7 +1,7 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
-import { Beranda } from "./Pages"
+import { render } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
+import Jumbotron from './Components/Jumbotron';
 
 window.matchMedia = (query) => ({
   matches: false,
@@ -14,12 +14,12 @@ window.matchMedia = (query) => ({
   dispatchEvent: jest.fn(),
 })
 
-test('renders page beranda', () => {
+test('renders component jumbotron', () => {
   const { getByText } = render(
     <BrowserRouter>
-      <Beranda />
+      <Jumbotron />
     </BrowserRouter>
   );
-  const linkElement = getByText("HAFIDZ IT");
+  const linkElement = getByText("Belajar IT Sekaligus Agama Islam");
   expect(linkElement).toBeInTheDocument();
 });
