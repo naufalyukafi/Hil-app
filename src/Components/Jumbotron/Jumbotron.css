@@ -8,16 +8,18 @@
 
 .headline {
   display: grid;
+  background-color: #f1f8f1;
+  padding-top: 55px;
 }
 
 .headline__figure {
-  /* width: 100%; */
   text-align: center;
 }
 
 .headline__figure img {
   width: 250px;
   height: 250px;
+  /* margin-top: 35px; */
 }
 
 .headline__content {
@@ -94,7 +96,7 @@ h1.headline__title {
 
   .headline {
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 50px;
+    /* margin-top: 50px; */
   }
 }
 

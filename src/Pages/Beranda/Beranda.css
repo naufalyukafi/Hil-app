@@ -7,15 +7,48 @@
 
 .content {
   padding: 32px 10px;
-  margin: 13vh auto;
-  min-height: 250vh;
+  margin: 0 auto;
+  min-height: 90vh;
 }
 
-.text-welcome {
-  text-align: right;
+.content__title {
+  border-bottom: 3px solid #79a661;
+  width: 100%;
+  font-weight: 900;
+  color: #79a661;
+  padding: 20px 0;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-.fitur-hil {
-  background-color: '#FDC945';
-  display: 'block';
+.content__about {
+  text-align: center;
+}
+
+.content__about span {
+  font-weight: bold;
+}
+
+/*
+* post
+*/
+
+.posts {
+  margin: 32px auto auto;
+  text-align: left;
+  display: grid;
+  grid-row-gap: 16px;
+}
+
+.posts {
+  text-align: center;
+}
+
+@media screen and (min-width: 850px) {
+  .posts {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 }

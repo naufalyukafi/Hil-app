@@ -1,0 +1,16 @@
+{
+    "about": [
+        {    
+            "id": 1,
+            "title": "Teknologi Informasi",
+            "image": "./images/laptop.png",
+            "description": "Mempelajari dari dasar pemrograman hingga dapat membuat projek yang bisa dikembangkan secara signifikan berbasis mobile / web"
+        },
+        {
+            "id": 2,
+            "title": "Agama Islam",
+            "image": "./images/alquran.png",
+            "description": "Mempelajari tauhid dalam agama Islam, mengaji bersama, dan menelaah ayat-ayat Al Quran"
+        }
+    ]
+}
