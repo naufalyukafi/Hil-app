@@ -3,6 +3,7 @@ import "./Beranda.css";
 import { Layout} from 'antd';
 import { MyContext } from '../../Contexts/ApiContext';
 import Card from '../../Components/Card';
+import Jumbotron from '../../Components/Jumbotron';
 
 const Beranda = () => {
     const { abouts, getAllAbouts } = useContext(MyContext);
@@ -12,6 +13,8 @@ const Beranda = () => {
     }, [getAllAbouts])
 
     return (
+        <>
+        <Jumbotron />
         <Layout.Content className="main">
             <div className="content">
                 <h2 id="about" className="content__title">Tentang Kami</h2>
@@ -36,6 +39,7 @@ const Beranda = () => {
                 </div>
             </div>
         </Layout.Content>
+        </>
     )
 }
 export default Beranda

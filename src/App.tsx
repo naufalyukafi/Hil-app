@@ -1,10 +1,9 @@
 import React, {useState, useEffect} from 'react';
-import { Beranda } from "./Pages";
+import { Beranda, Daftar, SuccesConfirm } from "./Pages";
 import "./App.css"
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Navbar from "./Components/Navbar";
 import Dropdown from "./Components/Dropdown";
-import Jumbotron from './Components/Jumbotron';
 import Footer from './Components/Footer';
 
 function App() {
@@ -28,9 +27,10 @@ function App() {
     <BrowserRouter>
       <Navbar toggle={toggle} />
       <Dropdown isShowMobileNav={isShowMobileNav} toggle={toggle} />
-      <Jumbotron />
       <Switch>
-        <Route path="/" component={Beranda} />
+        <Route exact path="/" component={Beranda} />
+        <Route exact path="/daftar" component={Daftar} />
+        <Route path="/success" component={SuccesConfirm} />
         <Redirect to="/" />
       </Switch>
       <Footer />      

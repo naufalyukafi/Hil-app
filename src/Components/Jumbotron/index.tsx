@@ -12,7 +12,7 @@ const Jumbotron = () => {
           <div className="headline__content">
             <h1 className="headline__title">Selamat datang di <br /> hafidz it lumajang</h1>
             <p className="headline__description">Belajar IT Sekaligus Agama Islam</p>
-            <a href="#/" target="_blank" rel="noopener noreferrer">
+            <a href="/daftar">
               <button type="button" className="headline__button">Daftar Sekarang</button>
             </a>
           </div>

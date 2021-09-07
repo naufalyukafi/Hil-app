@@ -1,3 +1,4 @@
-import Beranda from "./Beranda"
-
-export { Beranda }
+import Beranda from "./Beranda";
+import Daftar from "./Daftar";
+import SuccesConfirm from "./SuccesConfirm";
+export { Beranda, Daftar, SuccesConfirm }
